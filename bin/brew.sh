@@ -76,10 +76,12 @@ brew install webkit2png
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
-brew install node
+brew install homebrew/versions/node4-lts --without-npm
 npm install -g grunt-cli
 npm install -g gulp-cli
 npm install -g bower
+npm install -g yo
+curl -L https://www.npmjs.com/install.sh | sh
 
 # We want to use pip and virtualenv and all of that.
 brew install python
@@ -92,40 +94,39 @@ brew linkapps python
 brew install caskroom/cask/brew-cask
 
 # Now we need to install a bunch of casks.
-brew cask install amazon-music
+# brew cask install amazon-music
 brew cask install arq
 brew cask install atom
-brew cask install calibre
-brew cask install cord
+# brew cask install calibre
+# brew cask install cord
 brew cask install dropbox
 brew cask install emacs
 brew cask install firefox
 brew cask install flux
 brew cask install google-chrome
 brew cask install google-drive
-brew cask install joinme
+# brew cask install joinme
 brew cask install keepingyouawake
 brew cask install knock
 brew cask install lastpass
-brew cask install microsoft-office
 brew cask install nvalt
-brew cask install panic-unison
-brew cask install picasa
-brew cask install skype
+# brew cask install picasa
+# brew cask install skype
 brew cask install slack
-brew cask install spotify
-brew cask install steam
+# brew cask install spotify
+# brew cask install steam
 brew cask install the-unarchiver
 brew cask install transmission
-brew cask install panic-unison
+# brew cask install panic-unison
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
 brew cask install ynab
+brew install nginx   
 
 # Alternate versions
 brew tap caskroom/versions
-brew cask install iterm2-beta
+brew cask install iterm2
 
 # Remove outdated versions from the cellar.
 brew cleanup
