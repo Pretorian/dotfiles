@@ -96,13 +96,24 @@ brew install caskroom/cask/brew-cask
 # Now we need to install a bunch of casks.
 # brew cask install amazon-music
 brew cask install arq
-brew cask install atom
+brew cask install sublime
+brew install ant
+brew install elasticsearch
+brew install elasticsearch 2.5
+brew install elasticsearch plugins
+brew install homebrew/php/arcanist
+brew install maven
+brew install redis
 # brew cask install calibre
 # brew cask install cord
 brew cask install dropbox
+brew cask install mongo
+brew cask install composer
+brew cask install cowsay
 brew cask install emacs
 brew cask install firefox
 brew cask install flux
+brew cask install kibana
 brew cask install google-chrome
 brew cask install google-drive
 # brew cask install joinme
@@ -110,6 +121,7 @@ brew cask install keepingyouawake
 brew cask install knock
 brew cask install lastpass
 brew cask install nvalt
+brew cask install nmap
 # brew cask install picasa
 # brew cask install skype
 brew cask install slack
@@ -121,6 +133,7 @@ brew cask install transmission
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
+brew cask install svn-crawler
 brew cask install ynab
 brew install nginx   
 
